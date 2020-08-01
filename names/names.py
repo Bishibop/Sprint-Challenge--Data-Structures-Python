@@ -39,6 +39,10 @@ for name_2 in names_2:
     else:
         pass
 
+# speedy stretch version
+#  names_1_set = set(names_1)
+#  names_2_set = set(names_2)
+#  duplicates = names_1_set.intersection(names_2_set)
 
 end_time = time.time()
 print(f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
@@ -53,3 +57,4 @@ print(f"runtime: {end_time - start_time} seconds")
 # Thare are no restrictions on techniques or data
 # structures, but you may not import any additional libraries that you did
 # not write yourself.
+
